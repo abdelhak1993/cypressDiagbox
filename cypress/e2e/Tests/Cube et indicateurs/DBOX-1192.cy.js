@@ -18,6 +18,7 @@ it('ajouter un cube sans nom', function() {
     cubePage.ajoutCube()
     cubePage.enregistrerCube()
     cubePage.assertionNomCubeError()
+    cy.log("Bonjour")
 
 })
 
